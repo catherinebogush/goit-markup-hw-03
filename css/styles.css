@@ -45,7 +45,9 @@ ul {
 }
 
 /* -------------------------Header----------------------*/
-
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .page-logo-nav {
   font-family: Raleway;
   font-style: normal;
@@ -135,6 +137,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  padding: 6px 22px;
 }
 .projects {
   padding: 20px 24px;
@@ -185,7 +188,6 @@ ul {
 /*--------------------------Main--------------------------*/
 
 .main-hero {
-  width: 1200px;
   background-color: #2f303a;
   text-align: center;
   margin: 0 auto;
@@ -225,9 +227,12 @@ ul {
 .main-description-list {
   display: flex;
   align-items: center;
+}
+.main-first {
   padding-top: 89px;
   padding-bottom: 94px;
 }
+
 .main-description-item {
   margin-right: 30px;
 }
@@ -241,6 +246,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+  margin-bottom: 10px;
+}
+.main-description-paragraph {
+  width: 270px;
 }
 .photos-works {
   display: flex;
